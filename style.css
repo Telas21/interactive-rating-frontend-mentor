@@ -119,7 +119,6 @@ svg {
   color: var(--cl-primary-orange);
   font-size: var(--fs-body);
   width: 180px;
-  /* text-align: center; */
   padding: 0.5rem 0.5rem;
   border: 0;
   border-radius: 20px;
@@ -142,7 +141,6 @@ body {
   background-color: var(--cl-neutral-dark-blue);
   min-width: 300px;
   max-width: 360px;
-  aspect-ratio: 1 / 1;
   border: 0;
   display: flex;
   justify-content: center;
@@ -158,6 +156,7 @@ body {
   border-radius: 50%;
   padding: 1rem;
   margin-top: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 .heading {
@@ -179,7 +178,7 @@ body {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  margin: 1.5rem 0;
+  margin: 2rem 0;
 }
 
 .rating-span {
@@ -216,7 +215,7 @@ body {
 }
 
 .submit-button {
-  margin-bottom: 1rem;
+  margin-bottom: 0.3rem;
   background-color: var(--cl-primary-orange);
   color: var(--cl-neutral-white);
   font-size: var(--fs-body);
