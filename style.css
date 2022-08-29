@@ -239,7 +239,7 @@ body {
 }
 
 .submit-button:hover,
-.submit-button:active {
+.submit-button:focus-visible {
   background-color: var(--cl-neutral-white);
   color: var(--cl-primary-orange);
 }
