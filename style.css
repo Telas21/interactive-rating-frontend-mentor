@@ -238,7 +238,8 @@ body {
   -webkit-transition: all 0.4s;
 }
 
-.submit-button:hover {
+.submit-button:hover,
+.submit-button:active {
   background-color: var(--cl-neutral-white);
   color: var(--cl-primary-orange);
 }
