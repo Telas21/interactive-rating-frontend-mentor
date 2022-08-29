@@ -156,7 +156,7 @@ body {
   background-color: var(--cl-neutral-medium-grey);
   color: var(--cl-neutral-light-grey);
   border-radius: 50%;
-  padding: 10px 10px;
+  padding: 0.5rem;
 }
 
 .rating-state-card > * {
@@ -190,32 +190,38 @@ body {
   width: 100%;
   justify-content: space-between;
   align-content: center;
-  align-items: stretch;
 }
 
 .for-rating-button {
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
+  width: 100%;
   cursor: pointer;
+  text-align: center;
+  padding: 0.4rem;
 }
 
-.rating-button + span {
+.rating-span {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+}
+
+.rating-button + .rating-span {
   font-size: var(--fs-body);
   font-weight: var(--fw-regular);
   background-color: var(--cl-neutral-medium-grey);
   color: var(--cl-neutral-light-grey);
   border-radius: 50%;
-  padding: calc(0.7rem * 1) calc(0.975rem * 1);
-  transition: all 0.4s;
   -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
-.rating-button + span:hover {
+.rating-button + .rating-span:hover {
   background-color: var(--cl-neutral-light-grey);
   color: var(--cl-neutral-white);
 }
 
-.rating-button:checked + span {
+.rating-button:checked + .rating-span {
   background-color: var(--cl-primary-orange);
   color: var(--cl-neutral-white);
 }
@@ -233,9 +239,9 @@ body {
   width: 100%;
   padding: 10px;
   border: 0;
-  border-radius: 20px;
-  transition: all 0.4s;
+  border-radius: 25px;
   -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 .submit-button:hover,
