@@ -156,54 +156,39 @@ body {
   background-color: var(--cl-neutral-medium-grey);
   color: var(--cl-neutral-light-grey);
   border-radius: 50%;
-  padding: 0.5rem;
-}
-
-.rating-state-card > * {
-  margin: 0.5rem 0;
+  padding: 1rem;
+  margin-top: 0.5rem;
 }
 
 .heading {
   font-size: var(--fs-primary-heading);
   color: var(--cl-neutral-white);
   font-weight: var(--fw-bold);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .body-text {
   font-size: var(--fs-body);
   color: var(--cl-neutral-light-grey);
   font-weight: var(--fw-regular);
-}
-
-.submit-rating-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.submit-rating-form > * {
-  margin: 0.5rem 0;
+  margin-bottom: 1rem;
 }
 
 .rating-buttons {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  align-content: center;
-}
-
-.for-rating-button {
-  width: 100%;
-  cursor: pointer;
-  text-align: center;
-  padding: 0.4rem;
+  margin: 1.5rem 0;
 }
 
 .rating-span {
-  box-sizing: border-box;
-  display: block;
-  width: 100%;
-  padding: 0.8rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
 }
 
 .rating-button + .rating-span {
@@ -231,7 +216,6 @@ body {
 }
 
 .submit-button {
-  margin-top: 1rem;
   background-color: var(--cl-primary-orange);
   color: var(--cl-neutral-white);
   font-size: var(--fs-body);
