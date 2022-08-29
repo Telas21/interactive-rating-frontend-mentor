@@ -141,7 +141,7 @@ body {
 .container {
   background-color: var(--cl-neutral-dark-blue);
   min-width: 300px;
-  max-width: 350px;
+  max-width: 360px;
   aspect-ratio: 1 / 1;
   border: 0;
   display: flex;
@@ -149,7 +149,7 @@ body {
   align-items: center;
   margin: 0 auto;
   padding: 25px;
-  border-radius: 10px;
+  border-radius: 5%;
 }
 
 .star-icon {
@@ -216,6 +216,7 @@ body {
 }
 
 .submit-button {
+  margin-bottom: 1rem;
   background-color: var(--cl-primary-orange);
   color: var(--cl-neutral-white);
   font-size: var(--fs-body);
